@@ -1,0 +1,15 @@
+   30   apt-get update
+   31  clear
+   32  kubectl version --client
+   33  clear
+   34  docker --version
+   35  wget https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+   36  sudo cp minikube-linux-amd64 /usr/local/bin/minikube
+   37  sudo chmod 755 /usr/local/bin/minikube
+   38  minikube version
+   40  sudo apt install virtualbox virtualbox-ext-pack
+   41  clear
+   42  minikube start
+   43  minikube start --driver=none
+   44  clear
+   45  kubectl get nodes
